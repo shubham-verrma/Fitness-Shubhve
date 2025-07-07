@@ -6,6 +6,7 @@ const Header = () => {
 
   const navItems = [
     { name: 'Course', href: '#course' },
+    { name: 'Coach', href: '#coach' },
     { name: 'Features', href: '#features' },
     { name: 'Curriculum', href: '#curriculum' },
     { name: 'Testimonials', href: '#testimonials' },
@@ -36,7 +37,9 @@ const Header = () => {
 
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="#pricing"
+              href="https://rajivkchawla.exlyapp.com/checkout/c99a5727-bded-4cfa-b614-01351c173c63"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gradient-to-r from-gold to-yellow-400 text-black px-6 py-2 rounded-lg font-semibold hover:from-yellow-400 hover:to-gold transition-all duration-200 transform hover:scale-105"
             >
               Enroll Now
@@ -70,7 +73,9 @@ const Header = () => {
               </a>
             ))}
             <a
-              href="#pricing"
+              href="https://rajivkchawla.exlyapp.com/checkout/c99a5727-bded-4cfa-b614-01351c173c63"
+              target="_blank"
+              rel="noopener noreferrer"
               className="block mx-3 mt-4 bg-gradient-to-r from-gold to-yellow-400 text-black px-6 py-2 rounded-lg font-semibold text-center"
               onClick={() => setIsMenuOpen(false)}
             >

@@ -35,6 +35,7 @@ const Footer = () => {
             <h4 className="text-lg font-bold text-white mb-6">Course</h4>
             <ul className="space-y-3">
               <li><a href="#course" className="text-gray-300 hover:text-gold transition-colors">About</a></li>
+              <li><a href="#coach" className="text-gray-300 hover:text-gold transition-colors">Coach</a></li>
               <li><a href="#features" className="text-gray-300 hover:text-gold transition-colors">Features</a></li>
               <li><a href="#curriculum" className="text-gray-300 hover:text-gold transition-colors">Curriculum</a></li>
               <li><a href="#testimonials" className="text-gray-300 hover:text-gold transition-colors">Testimonials</a></li>
